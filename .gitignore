@@ -1,0 +1,8 @@
+/WindowsPacketInjector/x64/Debug/
+/x64/
+/Debug/
+/Release/
+
+*.sys
+*.exe
+*.obj
