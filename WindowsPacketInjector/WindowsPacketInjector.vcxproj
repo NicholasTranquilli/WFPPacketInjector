@@ -110,12 +110,12 @@
     <FilesToPackage Include="$(TargetPath)" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\BlueScreenTestBench\BlueScreenTestBench\Driver.cpp" />
-    <ClCompile Include="..\..\BlueScreenTestBench\BlueScreenTestBench\InjectionCallout.cpp" />
+    <ClCompile Include="Driver.cpp" />
+    <ClCompile Include="InjectionCallout.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\BlueScreenTestBench\BlueScreenTestBench\Driver.h" />
-    <ClInclude Include="..\..\BlueScreenTestBench\BlueScreenTestBench\InjectionCallout.h" />
+    <ClInclude Include="Driver.h" />
+    <ClInclude Include="InjectionCallout.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

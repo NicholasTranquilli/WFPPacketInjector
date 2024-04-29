@@ -24,18 +24,18 @@
     </Inf>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\BlueScreenTestBench\BlueScreenTestBench\Driver.cpp">
+    <ClCompile Include="Driver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BlueScreenTestBench\BlueScreenTestBench\InjectionCallout.cpp">
+    <ClCompile Include="InjectionCallout.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\BlueScreenTestBench\BlueScreenTestBench\InjectionCallout.h">
+    <ClInclude Include="Driver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\BlueScreenTestBench\BlueScreenTestBench\Driver.h">
+    <ClInclude Include="InjectionCallout.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
